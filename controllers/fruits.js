@@ -5,7 +5,7 @@ import { fruits } from "../schemas/fruits.js";
 //   {
 //     id: 1,
 //     name: "apple",
-//     color: "red",
+//     color: "Red",
 //   },
 //   {
 //     id: 2,
