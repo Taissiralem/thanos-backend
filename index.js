@@ -53,3 +53,6 @@ app.listen(process.env.PORT, () => {
 app.post("/", upload.single("avatar"), (req, res) => {
   res.send("hello world");
 });
+app.get("/", (req, res) => {
+  res.send("hello world");
+});
