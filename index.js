@@ -25,7 +25,14 @@ const upload = multer({ dest: "uploads/" });
 
 const app = express();
 
-app.use(cors({ origin: "*" }));
+app.use(
+  cors({
+    origin: [
+      "https://react-router-frotend.vercel.app",
+      "https://thanos-backend.onrender.com/fruits",
+    ],
+  })
+);
 app.use(logger);
 app.use(bodyParser.json());
 
