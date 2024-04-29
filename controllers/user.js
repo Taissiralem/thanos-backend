@@ -1,5 +1,5 @@
 import bcrypt from "bcrypt";
-import { users } from "../models/user.js";
+import { users } from "../schemas/user.js";
 
 export const getUser = async (req, res) => {
   try {
